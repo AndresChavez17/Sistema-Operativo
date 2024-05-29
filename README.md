@@ -187,7 +187,7 @@ Concedele permisos de ejecución, escritura y lectura al archivo que recien crea
 ```
 chmod 777 calculadora.c
 ```
-Ahora puedes compilar el programa en c que recien creaste con esta linea de comando:
+- Ahora puedes compilar el programa en c que recien creaste con esta linea de comando:
 ```
 gcc -o calculadora cañculadora.c
 ```
