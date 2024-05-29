@@ -71,8 +71,9 @@ Esto construirá la imagen Docker y luego ejecutará un contenedor interactivo b
 Una vez dentro del contenedor, puedes utilizar los siguientes comandos:
 - nano: Editar archivos de texto.
 ```
-nano archivo.txt
+nano calculadora.py
 ```
+
 - Compilar un programa en C:
 ```
 gcc -o programa programa.c
