@@ -132,13 +132,68 @@ Para cerrar el archivo calculadora.py presiona CTRL + X.
 ```
 CTRL + X
 ```
-- Compilar un programa en C:
+Concedele permisos de ejecución, escritura y lectura al archivo que recien creaste con el comando chmod:
 ```
-gcc -o programa programa.c
+chmod 777 calculadora.py
 ```
-- Ejecutar un script de Python:
+Ejecute el programa de calculadora.py con el siguiente comando:
 ```
-python3 script.py
+python3 calculadora.py
+```
+- Crear y compilar un programa en C:
+Crea un archivo .c con nano como lo hiciste anteriormente y copia y pega el siguiente codigo:
+```
+#include <stdio.h>
+
+int main() {
+    char operador;
+    float num1, num2;
+
+    printf("Ingrese el operador (+, -, *, /): ");
+    scanf("%c", &operador);
+
+    printf("Ingrese dos números: ");
+    scanf("%f %f", &num1, &num2);
+
+    switch (operador) {
+        case '+':
+            printf("Resultado: %.2f\n", num1 + num2);
+            break;
+        case '-':
+            printf("Resultado: %.2f\n", num1 - num2);
+            break;
+        case '*':
+            printf("Resultado: %.2f\n", num1 * num2);
+            break;
+        case '/':
+            if (num2 != 0)
+                printf("Resultado: %.2f\n", num1 / num2);
+            else
+                printf("Error: División por cero\n");
+            break;
+        default:
+            printf("Operador no válido.\n");
+    }
+
+    return 0;
+}
+```
+Guarda el archivo calculadora.c y sal del editor nano con los comandos usados anteriormente. 
+```
+CTRL + O
+CTRL + X
+```
+Concedele permisos de ejecución, escritura y lectura al archivo que recien creaste con el comando chmod:
+```
+chmod 777 calculadora.c
+```
+Ahora puedes compilar el programa en c que recien creaste con esta linea de comando:
+```
+gcc -o calculadora cañculadora.c
+```
+- Ejecutar el archivo calculadora.c:
+```
+./calculadora.c
 ```
 - Ver estructura de directorios:
 ```
