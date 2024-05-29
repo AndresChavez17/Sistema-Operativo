@@ -199,3 +199,9 @@ gcc -o calculadora cañculadora.c
 ```
 tree
 ```
+- En el repositorio encontraras otro programa `conversion.py`, puedes crear un archivo Python, copiar y pegar el script del codigo y ejecutarlo para observar el resultado de esta aplicación
+```
+nano conversion.py
+chmod 777 conversion.py
+python3 conversion.py
+``` 
