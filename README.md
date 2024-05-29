@@ -77,3 +77,11 @@ nano archivo.txt
 ```
 gcc -o programa programa.c
 ```
+- Ejecutar un script de Python:
+```
+python3 script.py
+```
+- Ver estructura de directorios:
+```
+tree
+```
