@@ -128,7 +128,7 @@ Guardalo oprimiendo CRTL + O y luego presiona la tecla Enter.
 ```
 CRTL + O
 ```
-Para cerrar el archivo calculadora.py presiona CTRL + X.
+Para cerrar el archivo `calculadora.py` presiona CTRL + X.
 ```
 CTRL + X
 ```
@@ -136,7 +136,7 @@ Concedele permisos de ejecución, escritura y lectura al archivo que recien crea
 ```
 chmod 777 calculadora.py
 ```
-Ejecute el programa de calculadora.py con el siguiente comando:
+Ejecute el programa de `calculadora.py` con el siguiente comando:
 ```
 python3 calculadora.py
 ```
@@ -178,7 +178,7 @@ int main() {
     return 0;
 }
 ```
-Guarda el archivo calculadora.c y sal del editor nano con los comandos usados anteriormente. 
+Guarda el archivo `calculadora.c` y sal del editor nano con los comandos usados anteriormente. 
 ```
 CTRL + O
 CTRL + X
@@ -191,7 +191,7 @@ chmod 777 calculadora.c
 ```
 gcc -o calculadora cañculadora.c
 ```
-- Ejecutar el archivo calculadora.c:
+- Ejecutar el archivo `calculadora.c`:
 ```
 ./calculadora.c
 ```
